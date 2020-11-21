@@ -1,0 +1,155 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.page {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(images/bg.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+  font-size: 8vh;
+}
+
+#email {
+  font-size: 3vh;
+}
+
+#landing-page {
+  background-image: url("assets/knife1.jpg");
+}
+
+#landing-page div {
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#landing-page div p {
+  width: 50vw;
+  margin-left: auto;
+  padding: 3rem;
+  color: white;
+  line-height: 2;
+}
+
+#about-me {
+  background-image: url("assets/Aaron_Diamond_Knives-096.jpg");
+}
+
+#about-me div {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3.33%;
+  width: 100%;
+}
+
+#about-me div p {
+  width: 33vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 3rem;
+  color: white;
+  line-height: 2;
+  border-radius: 2.5px;
+}
+
+#products {
+  background-image: url("assets/Aaron_Diamond_Knives-057.jpg");
+}
+
+#products div {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3.33%;
+  width: 100%;
+}
+
+#products div p {
+  width: 33vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 3rem;
+  color: white;
+  line-height: 2;
+  border-radius: 2.5px;
+}
+
+#buy-a-knife {
+  background-image: url("assets/Aaron_Diamond_Knives-100.jpg");
+}
+
+#buy-a-knife div {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 3.33%;
+  width: 100%;
+}
+
+#buy-a-knife div p {
+  width: 33vw;
+  margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 3rem;
+  color: white;
+  line-height: 2;
+  border-radius: 2.5px;
+}
+
+#other-services {
+  background-image: url("assets/Aaron_Diamond_Knives-012.jpg");
+}
+
+#other-services div {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3.33%;
+  width: 100%;
+}
+
+#other-services div p {
+  width: 33vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 3rem;
+  color: white;
+  line-height: 2;
+  border-radius: 2.5px;
+}
+
+@media screen and (max-width: 800px) {
+  #about-me div, #buy-a-knife div, #other-services div, #products div, #landing-page div {
+    margin: 0;
+  }
+  #about-me div p, #buy-a-knife div p, #other-services div p, #products div p, #landing-page div p {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
