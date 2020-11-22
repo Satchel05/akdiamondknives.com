@@ -64,7 +64,7 @@
   background-color: rgba(0, 0, 0, 0.4);
   padding: 3rem;
   color: white;
-  line-height: 2;
+  line-height: 3;
   border-radius: 2.5px;
 }
 
@@ -128,9 +128,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   margin-left: 3.33%;
   width: 100%;
 }
@@ -142,6 +142,7 @@
   color: white;
   line-height: 2;
   border-radius: 2.5px;
+  margin-top: 3.33%;
 }
 
 @media screen and (max-width: 800px) {
@@ -150,6 +151,7 @@
   }
   #about-me div p, #buy-a-knife div p, #other-services div p, #products div p, #landing-page div p {
     width: 100%;
+    line-height: 1.5;
   }
 }
 /*# sourceMappingURL=styles.css.map */
