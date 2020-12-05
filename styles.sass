@@ -37,13 +37,13 @@
         // display: flex
         // align-items: center
         // margin-right: 3.33%
-        width: 100%
+        width: 100vw
 
         p
             width: 50vw
-            // margin-left: auto
+            margin-left: 3.33%
             // background-color: rgba(0,0,0, 0.40)
-            padding: 3rem
+            // padding: 3rem
             color: black
             line-height: 2
 #about-me
@@ -241,24 +241,43 @@
     height: 25%
 
 @media screen and (max-width: 800px)
-    #about-me, #buy-a-knife, #other-services, #products, #landing-page
+    #about-me, #buy-a-knife, #other-services, #products
 
         div
             margin: 0
-            overflow: hidden
+            // overflow: hidden
             width: 100vw
             height: 100vh
             p
                 width: 100%
                 height: 100%
                 line-height: 1.5
-                overflow: hidden
+                // overflow: hidden
 
-        // .page
-        //     background-position: center
-        //     background-repeat: no-repeat
-        //     background-size: contain
-        //     background-size: 50px 50px
+    #landing-page
+        #items
+            // display: flex
+            // justify-content: center
+
+            div
+                margin-top: 2rem
+                height: 100vh
+                // display: flex
+                // align-items: center
+                margin-left: 10%
+                width: 100vw
+
+                p
+                    width: 50vw
+                    margin-left: 3.33%
+                    color: red
+                    // background-color: rgba(0,0,0, 0.40)
+                    // padding: 3rem
+                    color: black
+                    line-height: 1
+            #email
+                margin-top: 25rem
+                text-align: center
 
 @media screen and (max-width: 800px)
     #main-section
