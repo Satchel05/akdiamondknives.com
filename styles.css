@@ -243,4 +243,17 @@
     line-height: 1.5;
   }
 }
+
+@media screen and (max-width: 800px) {
+  #main-section {
+    padding-top: 7rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-gap: 7rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
