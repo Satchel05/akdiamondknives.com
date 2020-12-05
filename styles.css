@@ -96,11 +96,28 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-left: 3.33%;
   width: 33vw;
 }
 
-#products div p {
+#products h3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+  border-radius: 2.5px 2.5px 0px 0px;
+  padding-top: 1.5rem;
+  font-size: 3vh;
+  color: white;
+}
+
+#products p {
   margin-left: auto;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 3rem;
@@ -121,11 +138,28 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 3.33%;
   width: 100%;
 }
 
-#buy-a-knife div p {
+#buy-a-knife h3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+  border-radius: 2.5px 2.5px 0px 0px;
+  padding-top: 1.5rem;
+  font-size: 3vh;
+  color: white;
+}
+
+#buy-a-knife p {
   width: 33vw;
   margin-left: auto;
   background-color: rgba(0, 0, 0, 0.4);
@@ -144,21 +178,37 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-left: 3.33%;
-  width: 100%;
+  width: 33vw;
 }
 
-#other-services div p {
-  width: 33vw;
+#other-services h3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+  border-radius: 2.5px 2.5px 0px 0px;
+  padding-top: 1.5rem;
+  font-size: 3vh;
+  color: white;
+}
+
+#other-services p {
+  margin-left: auto;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 3rem;
   color: white;
-  line-height: 2;
-  border-radius: 2.5px;
-  margin-top: 3.33%;
+  line-height: 3;
+  border-radius: 0px 0px 2.5px 2.5px;
 }
 
 #header2 {
