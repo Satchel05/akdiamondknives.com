@@ -54,17 +54,34 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-left: 3.33%;
   width: 33vw;
 }
 
-#about-me div p {
+#about-me h3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+  border-radius: 2.5px 2.5px 0px 0px;
+  padding-top: 1.5rem;
+  font-size: 3vh;
+  color: white;
+}
+
+#about-me p {
   margin-left: auto;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 3rem;
   color: white;
   line-height: 3;
-  border-radius: 2.5px;
+  border-radius: 0px 0px 2.5px 2.5px;
 }
 
 #products {
@@ -237,10 +254,14 @@
 @media screen and (max-width: 800px) {
   #about-me div, #buy-a-knife div, #other-services div, #products div, #landing-page div {
     margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
   }
   #about-me div p, #buy-a-knife div p, #other-services div p, #products div p, #landing-page div p {
     width: 100%;
     line-height: 1.5;
+    overflow: hidden;
   }
 }
 
