@@ -9,7 +9,6 @@
 .page {
   height: 100vh;
   min-height: 500px;
-  background-image: url(images/bg.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +23,7 @@
 }
 
 #landing-page {
-  background-image: url("assets/knife1.jpg");
+  background-image: url("assets/Aaron_Diamond_Knives-004.jpg");
 }
 
 #landing-page div {
@@ -39,7 +38,7 @@
   width: 50vw;
   margin-left: auto;
   padding: 3rem;
-  color: white;
+  color: black;
   line-height: 2;
 }
 
@@ -56,11 +55,11 @@
       -ms-flex-align: center;
           align-items: center;
   margin-left: 3.33%;
-  width: 100%;
+  width: 33vw;
 }
 
 #about-me div p {
-  width: 33vw;
+  margin-left: auto;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 3rem;
   color: white;
@@ -81,11 +80,11 @@
       -ms-flex-align: center;
           align-items: center;
   margin-left: 3.33%;
-  width: 100%;
+  width: 33vw;
 }
 
 #products div p {
-  width: 33vw;
+  margin-left: auto;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 3rem;
   color: white;
@@ -143,6 +142,96 @@
   line-height: 2;
   border-radius: 2.5px;
   margin-top: 3.33%;
+}
+
+#header2 {
+  text-align: center;
+  font-size: 5vh;
+  margin-top: 5rem;
+}
+
+#main-section {
+  padding-top: 7rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 7rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: white;
+  z-index: 0;
+}
+
+#main-section .card {
+  border-radius: 0px;
+  position: relative;
+  height: 450px;
+  width: 450px;
+  text-align: center;
+  line-height: 1.5;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+
+#main-section .one {
+  background-image: url("assets/other/IMG_0001 2.JPG");
+}
+
+#main-section .two {
+  background-image: url("assets/other/IMG_0005 2.JPG");
+}
+
+#main-section .three {
+  background-image: url("assets/other/IMG_0008 2.JPG");
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#main-section .four {
+  background-image: url("assets/other/IMG_0011 2.JPG");
+}
+
+#main-section .five {
+  background-image: url("assets/other/IMG_0012 2.JPG");
+}
+
+#main-section .six {
+  background-image: url("assets/other/IMG_0014 2.JPG");
+}
+
+#main-section .seven {
+  background-image: url("assets/other/IMG_0015 2.JPG");
+}
+
+#main-section .eight {
+  background-image: url("assets/other/IMG_0017 2.JPG");
+}
+
+#main-section .nine {
+  background-image: url("assets/other/IMG_0019 2.JPG");
+}
+
+#main-section .ten {
+  background-image: url("assets/other/Aaron_knife 1.png");
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#main-section .eleven {
+  background-image: url("assets/other/IMG_0022 2.JPG");
+}
+
+#main-section .twelve {
+  background-image: url("assets/other/IMG_0032.JPG");
 }
 
 @media screen and (max-width: 800px) {
