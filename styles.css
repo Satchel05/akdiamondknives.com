@@ -26,17 +26,22 @@
   background-image: url("assets/Aaron_Diamond_Knives-004.jpg");
 }
 
+#landing-page #items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #landing-page div {
   height: 100vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 100%;
 }
 
 #landing-page div p {
   width: 50vw;
-  margin-left: auto;
   padding: 3rem;
   color: black;
   line-height: 2;
@@ -123,7 +128,7 @@
   padding: 3rem;
   color: white;
   line-height: 2;
-  border-radius: 2.5px;
+  border-radius: 0px 0px 2.5px 2.5px;
 }
 
 #buy-a-knife {
@@ -135,18 +140,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-right: 3.33%;
-  width: 100%;
+  margin-left: 3.33%;
+  width: 33vw;
 }
 
 #buy-a-knife h3 {
@@ -160,13 +165,12 @@
 }
 
 #buy-a-knife p {
-  width: 33vw;
   margin-left: auto;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 3rem;
   color: white;
   line-height: 2;
-  border-radius: 2.5px;
+  border-radius: 0px 0px 2.5px 2.5px;
 }
 
 #other-services {
@@ -301,6 +305,10 @@
   background-image: url("assets/other/IMG_0032.JPG");
 }
 
+#logo {
+  height: 25%;
+}
+
 @media screen and (max-width: 800px) {
   #about-me div, #buy-a-knife div, #other-services div, #products div, #landing-page div {
     margin: 0;
@@ -310,6 +318,7 @@
   }
   #about-me div p, #buy-a-knife div p, #other-services div p, #products div p, #landing-page div p {
     width: 100%;
+    height: 100%;
     line-height: 1.5;
     overflow: hidden;
   }
