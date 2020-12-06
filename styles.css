@@ -49,6 +49,7 @@
 
 #about-me {
   background-image: url("assets/Aaron_Diamond_Knives-096.jpg");
+  overflow: hidden;
 }
 
 #about-me div {
@@ -68,6 +69,7 @@
           flex-direction: column;
   margin-left: 3.33%;
   width: 33vw;
+  overflow: hidden;
 }
 
 #about-me h3 {
@@ -91,6 +93,7 @@
 
 #products {
   background-image: url("assets/Aaron_Diamond_Knives-057.jpg");
+  overflow: hidden;
 }
 
 #products div {
@@ -110,6 +113,7 @@
           flex-direction: column;
   margin-left: 3.33%;
   width: 33vw;
+  overflow: hidden;
 }
 
 #products h3 {
@@ -127,12 +131,13 @@
   background-color: rgba(0, 0, 0, 0.4);
   padding: 3rem;
   color: white;
-  line-height: 2;
+  line-height: 1.5;
   border-radius: 0px 0px 2.5px 2.5px;
 }
 
 #buy-a-knife {
   background-image: url("assets/Aaron_Diamond_Knives-100.jpg");
+  overflow: hidden;
 }
 
 #buy-a-knife div {
@@ -152,6 +157,7 @@
           flex-direction: column;
   margin-left: 3.33%;
   width: 33vw;
+  overflow: hidden;
 }
 
 #buy-a-knife h3 {
@@ -175,6 +181,7 @@
 
 #other-services {
   background-image: url("assets/Aaron_Diamond_Knives-012.jpg");
+  overflow: hidden;
 }
 
 #other-services div {
@@ -194,6 +201,7 @@
           flex-direction: column;
   margin-left: 3.33%;
   width: 33vw;
+  overflow: hidden;
 }
 
 #other-services h3 {
@@ -276,7 +284,7 @@
 }
 
 #main-section .six {
-  background-image: url("assets/other/IMG_0014 2.JPG");
+  background-image: url("assets/other/pencil.jpg");
 }
 
 #main-section .seven {
