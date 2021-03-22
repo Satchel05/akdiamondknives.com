@@ -261,6 +261,14 @@
   padding: 0;
 }
 
+#main-section .zero {
+  background-image: url("assets/new_img.JPG");
+}
+
+#main-section .half {
+  background-image: url("assets/new_img2.jpg");
+}
+
 #main-section .one {
   background-image: url("assets/other/IMG_0001 2.JPG");
 }
